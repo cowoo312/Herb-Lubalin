@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:link{color: #E9E9E9;}
+a:visited{color: #E9E9E9;}
+a:hover{color: #009AE5;}
+a:active{color: #E9E9E9;}
+
+nav{
+    height: 80px;
+    background-color: #3E3E3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    width: 130px;
+    height: 25px;
+    margin-top: 17px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+.box1{
+    background-color: #FFFFFF;
+    height: 520px;
+}
+.inbox1{
+    position: relative;
+    width: 1100px;
+    height: 520px;
+    margin: 0 auto;
+}
+.avantimg{
+    position: absolute;
+    width: 397px; 
+    height: 397px;
+    top: 45px;
+    right: 60px;
+}
+.text04{
+    position: absolute;
+    width: 373px;
+    height: 293px;
+    top: 45px;
+    left: 70px;
+}
+.box2{
+    background-color: #FFFFFF;
+    height: 1239px;
+}
+.inbox2{
+    position: relative;
+    width: 1100px;
+    height: 1239px;
+    margin: 0 auto;
+}
+.line{
+    position: absolute;
+    width: 957PX;
+    border-top: 2px solid #8B8B8B;
+    top: 12px;
+    left: 72px;
+}
+.text05{
+    position: absolute;
+    width: 957px;
+    height: 1200px;
+    top: 52px;
+    left: 72px;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #707070;
+    line-height: 40px;
+}
+.box3{
+    background-color: #FFFFFF;
+    height: 849px;
+}
+.inbox3{
+    position: relative;
+    width: 1100px;
+    height: 849px;
+    margin: 0 auto;
+}
+.text06{
+    position: absolute;
+    width: 260px;
+    height: 30px;
+    top: 82px;
+    left: 72px;
+}
+.line2{
+    position: absolute;
+    width: 957PX;
+    border-top: 2px solid #8B8B8B;
+    top: 120px;
+    left: 71.5px;
+}
+.avantp1{
+    position: absolute;
+    width: 543px;
+    height: 568px;
+    top: 180px;
+    left: 72px;
+}
+.avantp2{
+    position: absolute;
+    width: 387px;
+    height: 568px;
+    top: 180px;
+    right: 71px;
+}
+footer{
+    height: 60px;
+    background-color: #6A6A6A;
+}
+.flogo{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    position: absolute;
+    width: 62px;
+    height: 45px;
+    top: 8px;
+    left: 72px;
+}
+.copyright{
+    position: absolute;
+    width: 360px;
+    height: 22px;
+    right: 16px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    top: 18px;
+    right: 72px;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+a:link{color: #E9E9E9;}
+a:visited{color: #E9E9E9;}
+a:hover{color: #009AE5;}
+a:active{color: #E9E9E9;}
+
+nav{
+    height: 80px;
+    background-color: #3E3E3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+nav ul{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    width: 130px;
+    height: 25px;
+    margin-top: 17px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+section{}
+.wrap1{
+    width: 100vw;
+    height: 485px;
+    display: flex;
+    justify-content: center;
+    background-color: #3E3E3E;
+}
+.in1{
+    position: relative;
+    height: 485px;
+    width: 1100px;
+}
+.wrap2{
+    width: 100vw;
+    height: 504px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.in2{
+    position: relative;
+    height: 504px;
+    width: 1100px;
+}
+.wrap3{
+    width: 100vw;
+    height: 485px;
+    display: flex;
+    justify-content: center;
+    background-color: #656565;
+}
+.in3{
+    position: relative;
+    height: 485px;
+    width: 1100px;
+    background-color: #656565;
+}
+.wrap4{
+    width: 100vw;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.in4{
+    position: relative;
+    height: 312px;
+    width: 1100px;
+    background-color: #FFFFFF;
+}
+.wrap5{
+    width: 100vw;
+    height: 485px;
+    display: flex;
+    justify-content: center;
+    background-color: #3E3E3E;
+}
+.in5{
+    position: relative;
+    height: 485px;
+    width: 1100px;
+    background-color: #3E3E3E;
+}
+.in1, .in2, .in3, .in4, .in5{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 60px;
+    background-color: #6A6A6A;
+    width: 100vw;
+}
+.flogo{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    position: absolute;
+    width: 62px;
+    height: 45px;
+    top: 8px;
+}
+.copyright{
+    position: absolute;
+    width: 360px;
+    height: 22px;
+    right: 16px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    top: 18px;
+}
